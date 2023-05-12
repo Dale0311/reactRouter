@@ -1,10 +1,11 @@
 import {Link} from 'react-router-dom';
+import heroImg from "../assets/img/aboutPicc.png"
 function About({name}) {
     return ( 
         <div className="container mx-auto my-4">
             {/* Hero Section */}
             <div className="flex px-4 flex-col lg:flex-row items-center">
-                <img src="./img/aboutPicc.png" alt=""/>
+                <img src={heroImg} alt=""/>
                 <div className="w-full md:w-auto text-center md:text-left text-xl md:text-2xl xl:text-4xl px-4 xl:px-16 py-4 font-bold leading-normal">
                     Instead of trying to fit uncomfortably into a sedan, it might be more enjoyable and practical to opt for a spacious van. 
                 </div>
