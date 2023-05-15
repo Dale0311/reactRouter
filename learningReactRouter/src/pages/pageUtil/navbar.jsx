@@ -15,6 +15,9 @@ function NavBar() {
                 <li className="text-[#4D4D4D] font-semibold">
                     <Link to="/vans">Vans</Link> 
                 </li>
+                <li className="text-[#4D4D4D] font-semibold">
+                    <Link to="/admin">Admin</Link> 
+                </li>
             </ul>
         </div>
      );

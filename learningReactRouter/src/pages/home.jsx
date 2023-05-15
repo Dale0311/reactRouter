@@ -1,7 +1,6 @@
 import {Link} from "react-router-dom"
 import bgImage from "../../src/assets/img/homeCP.png"
 function Home({name}) {
-    console.log(bgImage);
     return ( 
         <div className="min-h-[85vh] md:min-h-0 py-0 md:py-[178.6px] bg-cover bg-center text-white flex items-center justify-center" style={{backgroundImage: `url(${bgImage})`}}>
             <div className="flex flex-col space-y-12 justify-center items-center py-16 px-4 text-center md:px-0" >

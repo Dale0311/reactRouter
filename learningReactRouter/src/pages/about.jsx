@@ -13,8 +13,8 @@ function About({name}) {
 
             {/* Mission Card */}
             <div className="mt-8 space-y-4">
-                <h1 className="font-black text-2xl">Mission: </h1>
-                <div className="grid grid-cols-3 gap-4">
+                <h1 className="font-black text-2xl px-4 md:px-0">Mission: </h1>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-4 md:px-0">
                     <div className="rounded font-semibold py-2 text-lg px-4 leading-normal bg-[#edd8c1]">
                         Our mission is to provide reliable and affordable rental vans to individuals and businesses, enabling them to fulfill their transportation needs efficiently and effectively.
                     </div>

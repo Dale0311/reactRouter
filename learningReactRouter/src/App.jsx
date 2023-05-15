@@ -3,8 +3,8 @@ import Home from "./pages/home"
 import About from "./pages/about"
 import NavBar from "./pages/pageUtil/navbar";
 import Footer from "./pages/pageUtil/footer";
-import { useState, useEffect } from 'react';
-
+import Vans from "./pages/vans";
+import Admin from "./pages/admin"
 function App() {
   return (
       <BrowserRouter>
@@ -12,6 +12,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/about" element={<About/>} />
+          <Route path="/vans" element={<Vans/>} />
+          <Route path="/admin" element={<Admin />} />
         </Routes>
         <Footer />
       </BrowserRouter>
