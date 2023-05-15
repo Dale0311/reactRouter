@@ -40,8 +40,8 @@ function Vans() {
     })
 
     return ( 
-        <div className='flex justify-center items-center'>
-            <div className="grid grid-cols-3 gap-8 py-4 ">
+        <div className='flex justify-center items-center px-4 md:px-0'>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 py-4">
                 {toRender}
             </div>
         </div>
