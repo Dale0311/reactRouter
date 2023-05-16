@@ -50,8 +50,8 @@ function Form() {
     setIsSuccessful(false);
   };
   return (
-    <div className="min-h-screen">
-      <h1 className="text-center text-3xl font-bold">Upload a rental van:</h1>
+    <div className="min-h-screen w-10/12 md:w-auto mx-auto">
+      <h1 className="text-center text-xl md:text-3xl font-bold">Upload a rental van:</h1>
       <form onSubmit={handleSubmit} className="max-w-lg mx-auto">
         {/* name input */}
         <div className="mb-4">

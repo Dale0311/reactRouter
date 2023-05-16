@@ -31,6 +31,7 @@ function Vans() {
     const toRender = data.map(element => {
         return <ToRender 
             key={element.id}
+            id={element.id}
             name={element.name}
             price={element.price}
             description={element.description}
