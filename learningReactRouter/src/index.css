@@ -6,3 +6,8 @@
 *{
     font-family: 'Inter', sans-serif;
 }
+nav a.active{
+    border-bottom: 2px solid #4D4D4D;
+    font-weight: bold;
+    color: black;
+}

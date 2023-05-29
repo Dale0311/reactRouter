@@ -18,3 +18,11 @@ i just finished creating a vans util for fetching the data
  ##### 2. create a nested route
  ##### 3. create a error handling on to the get request
  ##### 4. improve file structure
+
+### Update - 05/29/2023
+I already created the host component wherein i learned how to use following: 
+##### * use params
+##### * nested route with outlet
+##### * nested route with or without shared user interface
+##### * relative route and path
+##### * useOutletContext

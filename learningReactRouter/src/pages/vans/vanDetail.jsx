@@ -6,7 +6,7 @@ function vansDetail() {
     
     const params = useParams();
     const [data, setData] = useState(null);
-    
+    console.log(params);
     useEffect(() => {
         fetchData(params.id, setData)    
     }, []);

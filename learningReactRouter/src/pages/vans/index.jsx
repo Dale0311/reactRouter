@@ -1,4 +1,4 @@
-import VansData from "./vansUtil/index"
+import VansList from "./vansList"
 function Vans() {
     return ( 
         <div className="container mx-auto my-4 space-y-4 flex flex-col items-center">
@@ -11,7 +11,7 @@ function Vans() {
                 <button className="bg-[#EDD8C1] rounded py-2 px-2 md:px-6 text-xs md:text-base">Rugged</button>
             </div>
             <button className="text-left">Clear filter</button>
-            <VansData />
+            <VansList />
         </div>
      );
 }
