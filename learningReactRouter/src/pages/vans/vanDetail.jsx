@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import fetchData from "../../hooks/fetchData"
 import { useState, useEffect } from 'react';
 import bgColor from "../../utils/bgColor";
@@ -6,7 +6,6 @@ function vansDetail() {
     
     const params = useParams();
     const [data, setData] = useState(null);
-    console.log(params);
     useEffect(() => {
         fetchData(params.id, setData)    
     }, []);
@@ -14,6 +13,7 @@ function vansDetail() {
     return ( 
         data? 
         <div className="my-4 px-8 md:px-0 md:w-1/2 xl:w-1/4 mx-auto space-y-4">
+            <Link to=".." relative='path' className='hover:border-b-2 border-[#4D4D4D]'><i className="fa-solid fa-arrow-left-long"></i> Go back to all the vans</Link>
             <img src={data.imageUrl} alt="picture" className="rounded-t-md" />
             <div className="flex items-start">
                 <div className={`${bgColor(data.type)} py-2 px-4 mb-4 text-white rounded`}>
