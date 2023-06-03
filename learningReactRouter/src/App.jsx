@@ -3,6 +3,7 @@ import Home from "./pages/home"
 import About from "./pages/about"
 import Layout from "./components/layout";
 import Admin from "./pages/admin"
+import NotFound from "./pages/notFound";
 
 import Vans from "./pages/vans";
 import VansDetail from "./pages/vans/vanDetail";
@@ -42,7 +43,7 @@ function App() {
 
             <Route path="vans" element={<Vans/>} />
             <Route path="vans/:id" element={<VansDetail />} />
-
+            <Route path="*" element={<NotFound />}/>
           </Route>
         </Routes>
       </BrowserRouter>

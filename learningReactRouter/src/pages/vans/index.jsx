@@ -47,6 +47,8 @@ function Vans() {
             description={element.description}
             imageUrl={element.imageUrl}
             type={element.type}
+            search={searchParams.toString()}
+            q={q}
         />
     })
 
